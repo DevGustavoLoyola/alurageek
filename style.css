@@ -1,0 +1,52 @@
+header {
+    background-color: #5300C8;
+    padding: 20px, 0px, 20px, 0px;
+}
+
+.cabecalho {
+    width: 374px;
+    height: 56px;
+    padding-left: 464px;
+    display: flex;
+    
+}
+
+main {
+    display: flex;
+}
+
+form {
+    margin-left: 24px;
+}
+
+.meus_produtos {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario_campo {
+    width: 138px;
+    height: 123px;
+    border-radius: 10px;
+    padding: 60px 40px;
+    gap: 70px;
+}
+
+footer {
+    background-color: #5300C8;
+    padding: 20px, 0px, 20px, 0px;
+}
+
+.rodape {
+    width: 374px;
+    height: 56px;
+    padding-left: 464px;
+    display: flex;
+}
+
+p {
+    width: 374px;
+    height: 56px;
+    padding-left: 532px;
+    display: flex;
+}

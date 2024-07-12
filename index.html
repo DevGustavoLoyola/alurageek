@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="cabecalho" src="img/Property 1=Black.png" alt="Logo Alurageek">
+    </header>
+    <main>
+        <section class="meus_produtos">
+            <h1>Meus produtos: </h1>
+            <div class="card">
+                <img class="produtos_a" src="img/Product - Card.png" alt="Produtos">
+                <img class="produtos_b" src="img/Product - Card.png" alt="Produtos">
+                <img class="produtos_c" src="img/Product - Card.png" alt="Produtos">
+
+                <!-- <div class="card-container--info">
+                    <p>Nome do produto</p>
+                    <div class="card-container--value">
+                        <p>Precio: $XX.XX</p>
+                        <img src="caminho/para/icono-de-eliminacion" alt="Ícono de eliminación"> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <form>
+            <h1>Adicionar produto: </h1>
+            <div class="formulario__campo">
+                <label class="campo__etiqueta" for="nome">Nome</label>
+                <input name="nome" id="nome" type="nome" class="campo__escrita" required />
+            </div>
+
+            <h3 class="principal__subtitulo">Endereço</h3>
+
+            <div class="formulario__campo">
+                <label class="campo__etiqueta" for="valor">Valor</label>
+                <input name="valor" id="valor" class="campo__escrita" required />
+                <div id="erro"></div>
+            </div>
+
+            <div class="formulario__campo">
+                <label class="campo__etiqueta" for="imagem">Imagem</label>
+                <input name="imagem" id="imagem" class="campo__escrita" required />
+                <div class="btn-guardar">Guardar</div>
+                <div class="btn-limpar">Limpar</div>
+            </div>
+        </form>
+    </main>
+    
+</body>
+<footer>
+    <img class="rodape" src="img/Property 1=Black.png" alt="Logo Alurageek">
+    <p>Desenvolvido por DevGustavoLoyola</p>
+</footer>
+<script src="index.js"></script>
+</html>
